@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "nature-beauty";
+    src: url("fonts/nature-beauty.ttf");
+}
+
+
+
+p,
+a {
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+    color: #212121;
+
+}
+
+h1 {
+    font-family: nature-beauty;
+    text-align: center;
+    font-size: 80px;
+    color: #f6f6f6;
+    text-shadow: 3px;
+    text-shadow: .5rem .5rem 1rem #212121;
+
+}
+
+.image-1 {
+    background-image: url(images/DSCF8760-Enhanced.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    height: 750px;
+    width: 100%;
+}
+
+.image-2 {
+    background-image: url(images/DSCF8776-Enhanced.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    height: 750px;
+    width: 100%;
+}
+
+.image-3 {
+    background-image: url(images/DSCF8785-Enhanced.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    /* height: 750px; */
+    width: 100%;
+}
+
+.navbar-brand {
+    font-family: nature-beauty;
+    text-align: center;
+    font-size: 30px;
+    color: #212121;
+
+}
+
+.navbar,
+.navbar-expand-lg {
+    background-color: #f6f6f652
+}
+
+.jumbo {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 600px;
+}
+
+
+
+.btn-jumbo {
+    background-color: #6D9886;
+    color: #f6f6f6;
+    margin: 0 auto;
+    font-family: nature-beauty;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: #D9CAB3 solid 3px;
+
+}
+
+.shop-now {
+    width: 150px;
+}
+
+.btn-jumbo:hover {
+    background-color: #6d988655;
+    border: #D9CAB3 solid 3px;
+    color: #f6f6f6;
+
+}
+
+.jumbo-p {
+    color: #e1e1e1;
+    font-family: nature-beauty;
+    text-align: center;
+    display: flexbox;
+    margin: 0 auto;
+    word-spacing: 8px;
+    text-shadow: .5rem .5rem 1rem #212121;
+
+}
+
+.footer {
+    background-color: #212121;
+    color: #f6f6f6;
+    font-family: nature-beauty;
+    word-spacing: 2px;
+
+}
+
+.about-us {
+    background-color: #21212174;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0;
+
+}
+
+.rounded-5 {
+    display: flex;
+    align-items: center;
+    height: 650px;
+
+}
+
+.about-us>h2 {
+    color: #f6f6f6;
+    font-family: nature-beauty;
+    word-spacing: 8px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-us p {
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+    color: #f6f6f6;
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Cabin', sans-serif;
+}
+
+.card {
+    width: 100%;
+    padding: 10px;
+    background-color: #f6f6f68b;
+}
+
+.card p {
+    font-size: 16px;
+    font-family: 'Cabin';
+    color: #212121;
+    min-height: 150px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+
+.card h5 {
+    font-family: 'Cabin';
+    font-size: 18px;
+    font-weight: 800;
+    min-height: 70px;
+    color: #212121;
+}
+
+.card h5 span {
+    font-family: 'cabin';
+    font-weight: 700;
+    color: black
+}
+
+h2 {
+    color: #f6f6f6;
+    font-family: nature-beauty;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: .5rem .5rem 1rem #212121;
+}
+
+@media (max-width: 500px) {
+    .jumbo {
+        width: 100%;
+    }
+
+    .jumbo h1 {
+        font-size: 50px;
+    }
+
+    .jumbo .py-5 {
+        padding: 10px;
+    }
+
+    .about-us h2 {
+        font-size: 34px;
+
+    }
+
+
+    .about-us p {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+
+
+}
